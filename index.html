@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> TIMED QUIZ </title>
+  <link rel="stylesheet" href="./assets/style.css" /> 
+  <script src="./assets/script.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <a id="highscore" href="">View Highscores</a>
+        <p id="timer">60</p>
+    </div>
+    
+    <div class="start-container">
+        <button id="start-btn">start</button>
+    </div>
+
+    <div class="quiz-container">
+        <div >
+            <h2 class="hide" id="question">Question</h2>
+        </div>
+        
+        <div class="hide" id="answer">
+            <p id="option1">1.</p>
+
+            <p id="option2">2.</p>
+
+            <p id="option3">3.</p>
+
+            <p id="option4">4.</p>
+        </div>
+    </div>
+
+    <div id="end-container" class="hide">
+        <p>your score was</p>
+        <p id="finalscore"></p>
+    </div>
+
+
+
+</body>
